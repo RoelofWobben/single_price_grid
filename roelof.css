@@ -1,0 +1,62 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --gray: hsl(204, 43%, 93%);
+    --blue: hsl(218, 22%, 67%);
+}
+
+*{
+    padding: 0; 
+    margin:0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+h1{
+
+}
+
+h1 .green{
+    
+}
+
+p .cyan{
+
+}
+
+p .blue{
+
+}
+
+p .green{
+    
+}
+
+button {
+
+}
+
+.card1 {
+
+}
+
+
+.card2{
+
+}
+
+.price {
+
+}
+
+.card3{
+
+}
+
