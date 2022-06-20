@@ -14,49 +14,75 @@
 body{
     font-family: 'Karla', sans-serif;
     font-size: 16px;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    background-color: var(--gray);
+    font-weight: 400;  
 }
 
-h1{
-
+.container{
+    width: 315px;
+    background-color: white;
+    border-radius: 10px;
 }
 
-h1 .green{
-    
+h3 {
+    font-weight: 700;
+    color: var(--gray);
+    margin-bottom: 20px; 
 }
 
-p .cyan{
-
+.price{
+    margin-bottom: 10px; 
+}
+.cyan{
+    color: var(--cyan);
+    margin-bottom: 30px;
 }
 
-p .blue{
-
+.yellow{
+    color: var(--yellow);
+    margin-bottom: 30px; 
 }
 
-p .green{
-    
+.yellow2{
+    color: white; 
+    font-size: 16px;
+    opacity: 0.5;
+    position: relative;
+    top: -3px; 
+}
+
+.blue{
+    color: var(--blue);
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 14px; 
+}
+
+.dollar{
+    font-size: 24px;
+    color: white; 
 }
 
 button {
 
 }
 
-.card1 {
-
+.card1{
+    padding: 30px 15px; 
 }
 
 
 .card2{
-
-}
-
-.price {
-
+    background-color:var(--cyan);
+    padding: 30px 15px; 
 }
 
 .card3{
-
+    padding: 30px 15px; 
 }
 
