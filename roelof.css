@@ -36,8 +36,15 @@ h3 {
 }
 
 .price{
-    margin-bottom: 10px; 
+    display: flex;
+    flex-direction: row; 
 }
+
+.price p{
+    margin-left:5px;
+    margin-top: 3px; 
+}
+
 .cyan{
     color: var(--cyan);
     margin-bottom: 30px;
